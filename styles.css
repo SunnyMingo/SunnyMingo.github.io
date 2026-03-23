@@ -63,11 +63,16 @@ p {
     }
 
 /* Reference page styling */
-table, th, td {
-        width: 90%;
+table{
+        width: 100%;
         margin: 20px auto;
         border: 1px solid black;
         border-collapse: collapse;
+    }
+    td, th
+    {
+        padding: 10px;
+        text-align: left;
     }
 
 
