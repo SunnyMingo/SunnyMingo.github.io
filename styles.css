@@ -6,6 +6,7 @@ body {
         background-color: #f4f4f4;
     }
 
+    /* Navigation bar styling */
 nav {
         background-color: #333;
         color: #fff;
@@ -34,8 +35,10 @@ nav ul li a:hover {
         text-decoration: underline;
     }
 
+/* General Text Styling */
 h1 {
         text-align: center;
+        font-size: 50px;
         margin-top: 50px;
     }
 
@@ -58,3 +61,34 @@ p {
         margin-top: 150px;
         padding: 20px 0;
     }
+
+/* Reference page styling */
+table, th, td {
+        width: 90%;
+        margin: 20px auto;
+        border: 1px solid black;
+        border-collapse: collapse;
+    }
+
+
+/*Image grid tutorial used: https://www.w3schools.com/howto/howto_js_image_grid.asp*/
+/*Used to created the grid of images on the about page.*/
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0 4px;
+}
+
+.column {
+  flex: 45%;
+  padding: 0 4px;
+}
+
+.column img {
+  margin-top: 8px;
+  vertical-align: middle;
+}
+img {
+  width: 100%;
+  height: auto;
+}
