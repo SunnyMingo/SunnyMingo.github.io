@@ -84,6 +84,7 @@ table{
   padding: 0 4px;
 }
 
+/*Appears to be messing with the table class, as tables also use the class column. Design looks fine without the lines dividing the respective tables. May have to go back to fix this design to ensure it doesn't affect future tables. */
 .column {
   flex: 40%;
   padding: 0 4px;
