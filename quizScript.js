@@ -8,12 +8,12 @@ const quizData = [
     },
     {
         question: "What is the purpose of a URL?",
-        options: ["To locate a resource on the internet", "To encrypt data transmitted over the internet", "To manage user accounts on a website", "To store data on a web server"],
+        options: ["To locate a resource on the internet", "To encrypt data transmitted over the internet", "To manage user accounts on a website", "To store data on a web server", "To create a secure connection between a client and a server", "To optimize website performance", ],
         answer: "To locate a resource on the internet"
     },
     {
         question: "What is the role of the scheme in a URL?",
-        options: ["It specifies the protocol for accessing the resource", "It defines the domain name of the server", "It indicates the port number for the connection", "It determines the path to the resource"],
+        options: ["It specifies the protocol for accessing the resource", "It defines the domain name of the server", "It indicates the port number for the connection", "It determines the path to the resource", "It contains the query parameters for the request", "It identifies the fragment identifier for the resource", ],
         answer: "It specifies the protocol for accessing the resource"
     },
     /* Following questions are currently not functional, need to go back on milestone 3 and figure out how to make them functional.
