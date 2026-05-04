@@ -6,6 +6,7 @@ body {
         background-color: #f4f4f4;
     }
 
+    /* Responsive design for navigation bar on different screen sizes */
 @media (max-width: 600px) {
         nav ul {
             flex-direction: column;
@@ -95,6 +96,20 @@ p {
         margin: 20px 0;
     }
 
+h2 {
+        text-align: left;
+        font-size: 30px;
+        margin-top: 40px;
+        padding: 10px;
+    }
+
+/*Applies paragraph font sizing to bullet points*/
+#bullet-point-size
+{
+  font-size: 24px;
+  margin: 20px 0;
+}
+
 /* Home page keywords */
 #home_key_words {
         text-align: center;
@@ -142,7 +157,7 @@ table{
   vertical-align: middle;
 }
 img {
-  width: 100%;
+  max-width: 100%;
   height: auto;
 }
 
